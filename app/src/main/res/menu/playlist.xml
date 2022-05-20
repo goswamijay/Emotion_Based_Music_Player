@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Happy_playlist"
+        android:title="Happy Emotion"
+        />
+    <item
+        android:id="@+id/Sad_playlist"
+        android:title="Sad Emotion"
+        />
+    <item
+        android:id="@+id/Angry_playlist"
+        android:title="Angry Emotion"
+        />
+    <item
+        android:id="@+id/Contempt_playlist"
+        android:title="Contempt Emotion"
+        />
+    <item
+        android:id="@+id/Disgust_playlist"
+        android:title="Disgust Emotion"
+        />
+    <item
+        android:id="@+id/Fear_playlist"
+        android:title="Fear Emotion"
+        />
+    <item
+        android:id="@+id/Neutral_playlist"
+        android:title="Neutral Emotion"
+        />
+    <item
+        android:id="@+id/Surprise_playlist"
+        android:title="Surprise Emotion"
+        />
+    <item
+        android:id="@+id/Default_playlist"
+        android:title="Default Emotion"
+        />
+</menu>

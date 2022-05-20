@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="customSeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:minHeight">2dp</item>
+        <item name="android:maxHeight">4dp</item>
+    </style>
+
+
+    <style name="ButtonStyle">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+</resources>

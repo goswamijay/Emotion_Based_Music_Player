@@ -1,0 +1,13 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+
+        mavenCentral()
+    }
+}
+
+
+rootProject.name = "My Music Player"
+include ':app'
+

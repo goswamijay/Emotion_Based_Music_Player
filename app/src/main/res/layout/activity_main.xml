@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+ <Button
+       android:id="@+id/Camera_btn"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+     android:background="@drawable/rounded_corners"
+     android:layout_marginTop="10dp"
+       android:text="Emotion Capture"
+     android:layout_centerHorizontal="true"
+      />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listViewSong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/Camera_btn"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"
+        android:padding="8dp" />
+
+   <androidx.constraintlayout.widget.ConstraintLayout
+       android:id="@+id/homeControlWrapper"
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"
+       app:layout_constraintBottom_toBottomOf="parent"
+       android:layout_alignBottom="@id/listViewSong"
+       android:background="@color/white"
+       tools:ignore="ExtraText">
+       <TextView
+           android:id="@+id/icAudio"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           android:paddingStart="@dimen/sm"
+           android:paddingEnd="@dimen/sm"
+           tools:ignore="RtlSymmetry"
+           app:drawableStartCompat="@drawable/ic_baseline_music_note_24" />
+       <TextView
+           android:id="@+id/homeSongNameview"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintStart_toEndOf="@id/icAudio"
+           android:text="Currect Playing Song"
+           app:layout_constraintWidth_percent="0.6"
+           android:ellipsize="marquee"
+           android:singleLine="true"
+           android:marqueeRepeatLimit="marquee_forever"
+           android:textColor="@color/black"
+           app:layout_constraintHorizontal_bias="0"
+           android:textStyle="bold"
+           />
+
+       <TextView
+           android:id="@+id/homeSkipPreviousBtn"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toStartOf="@id/homePlayPauseBtn"
+           app:layout_constraintWidth_percent="0.1"
+           app:drawableStartCompat="@drawable/ic_previous2" />
+
+       <TextView
+           android:id="@+id/homePlayPauseBtn"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           app:layout_constraintStart_toEndOf="@+id/homeSongNameview"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintWidth_percent="0.1"
+           app:drawableStartCompat="@drawable/ic_play" /> />
+
+       <TextView
+           android:id="@+id/homeSkipNextBtn"
+           android:layout_width="0dp"
+           android:layout_height="wrap_content"
+           app:layout_constraintStart_toEndOf="@id/homePlayPauseBtn"
+           app:layout_constraintTop_toTopOf="parent"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintWidth_percent="0.1"
+           app:drawableStartCompat="@drawable/ic_skip1"
+           />
+
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- include Player View layout-->
+    <include layout="@layout/player_view" />
+
+
+
+
+</RelativeLayout>
+

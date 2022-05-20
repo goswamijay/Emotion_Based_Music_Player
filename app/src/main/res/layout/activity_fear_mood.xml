@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".fear_mood">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/Fear_playlistname"
+    android:text="Fear Song Playlist"
+    android:textStyle="bold"
+    android:layout_centerHorizontal="true"
+    android:textColor="@color/av_red"
+    android:textSize="20dp"
+
+    />
+
+<androidx.recyclerview.widget.RecyclerView
+    android:id="@+id/Fear_playlist1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/Fear_playlistname"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="10.0sp"
+    android:padding="8dp" />
+
+</RelativeLayout>

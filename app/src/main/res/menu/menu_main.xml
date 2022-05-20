@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/Capture_Emotion"
+        android:title="Capture Emotion"
+        />
+    <item
+        android:id="@+id/Login_activity"
+        android:title="Login Activity"
+        />
+    <item
+        android:id="@+id/signup_activity"
+        android:title="Signup Activity"
+        />
+    <item
+        android:id="@+id/Manage_Songs"
+        android:title="Manage Songs"
+        />
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings"
+        />
+
+
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/button_background.xml" value="0.1395" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/circular_button.xml" value="0.1855" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_back_arrow.xml" value="0.1" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1365" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_baseline_music_note_24.xml" value="0.1055" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_baseline_pause_circle_filled_24.xml" value="0.1" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_baseline_play_circle_filled_24.xml" value="0.1" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1395" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_next.xml" value="0.1365" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_pause.xml" value="0.1" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_play.xml" value="0.124" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_playlist.xml" value="0.1365" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_previous.xml" value="0.1365" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_previous2.xml" value="0.1" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/ic_skip1.xml" value="0.1" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/playlist_layout.xml" value="0.1" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/repeat_all.xml" value="0.124" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/rounded_corners.xml" value="0.1855" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/seek_thumg.xml" value="0.172" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/drawable/shuffle_24.xml" value="0.1" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_angry_mood.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_camera_working.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_change_mood.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_contempt_mood.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_disgust_mood.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_fear_mood.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_happy_mode.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_happy_mood.xml" value="0.32006920415224915" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_loginpage.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_mood_selector.xml" value="0.18840579710144928" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_neutral_mood.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_player.xml" value="0.2" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_playlist_adaptor.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_recognatize.xml" value="0.2" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_recognize.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_sad_mode.xml" value="0.1334853090172239" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_search.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_select_image.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_signup_page.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_splash.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_surprice_mood.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/activity_web_view.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/content_happy_mode.xml" value="0.264" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/fragment_first.xml" value="0.14791666666666667" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/fragment_second.xml" value="0.1" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/list_item.xml" value="0.2" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/mood_selecter.xml" value="0.2558876811594203" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/player_view.xml" value="0.2" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/playlist.xml" value="0.1265625" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/layout/playlist_layout.xml" value="0.176" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/menu/menu_main.xml" value="0.4" />
+        <entry key="..\:/Users/sir/AndroidStudioProjects/MyMusicPlayer/app/src/main/res/menu/playlist.xml" value="0.15885416666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

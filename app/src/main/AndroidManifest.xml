@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.jay.mymusicplayer">
+
+    <library tools:node="remove" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyMusicPlayer">
+        <activity
+            android:name=".surprice_mood"
+            android:exported="false" />
+        <activity
+            android:name=".neutral_mood"
+            android:exported="false" />
+        <activity
+            android:name=".fear_mood"
+            android:exported="false" />
+        <activity
+            android:name=".disgust_mood"
+            android:exported="false" />
+        <activity
+            android:name=".Contempt_mood"
+            android:exported="false" />
+        <activity
+            android:name=".angry_mood"
+            android:exported="false" />
+        <activity
+            android:name=".sad_mode"
+            android:exported="false" />
+        <activity
+            android:name=".search"
+            android:exported="false" />
+        <activity
+            android:name=".HappyMood"
+            android:exported="false" />
+        <activity
+            android:name=".Recognize"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".Mood_Selector"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+            android:exported="false" />
+        <activity
+            android:name=".SignupPage"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".Camera_Working"
+            android:exported="false"
+            android:launchMode="singleTop" />
+        <activity android:name=".PlayerActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
